@@ -1,0 +1,443 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner_txt p {
+        margin-top: 10px;
+        padding-top: 0px;
+        line-height: 0px;
+    }
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .navbar-nav .nav-item {
+        padding: 25px 0;
+        padding-left: 20px;
+    }
+
+    .navbar .nav-item .nav-link {
+        font-size: 15px;
+    }
+
+    .banner_txt h1 {
+        color: #fff;
+        font-size: 40px;
+    }
+
+    .banner_txt p {
+        line-height: 0px;
+        font-size: 10px;
+    }
+
+    .left_arrow,
+    .right_arrow {
+        font-size: 50px;
+    }
+
+    .left_arrow {
+        left: 40px;
+    }
+
+    .right_arrow {
+        right: 40px;
+    }
+
+    .services_txt h2 {
+        margin-left: 20px;
+    }
+
+    .services_txt p {
+        margin-left: 20px;
+    }
+
+    .pricing_title p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .pricing_items span {
+        color: #000;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .pricing_btn a {
+        font-size: 10px;
+    }
+
+    .pricing_btn2 a {
+        font-size: 10px;
+    }
+
+    .data {
+        bottom: 7px;
+        width: 43px;
+        height: 49px;
+    }
+
+    .data h5 {
+        margin-bottom: 0px;
+        font-size: 12px;
+    }
+
+    .blog_content h6 {
+        font-size: 14px;
+        margin-left: 30px;
+    }
+
+    .blg_title a {
+        font-size: 12px;
+        margin-left: 26px;
+    }
+
+
+    .skill-tl h3 {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+
+    .contract-frm {
+        margin-bottom: 20px;
+    }
+
+    .footer_title {
+        margin-top: 20px;
+    }
+
+    .footer_title h2 {
+        margin-bottom: 15px;
+    }
+
+
+
+    .footer_msg {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+
+/*medium device end*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .navbar-nav .nav-item {
+        padding: 25px 0;
+        padding-left: 10px;
+    }
+
+    .navbar .nav-item .nav-link {
+        font-size: 13px;
+    }
+
+    .left_arrow,
+    .right_arrow {
+        font-size: 40px;
+    }
+
+    .left_arrow {
+        left: 20px;
+    }
+
+    .right_arrow {
+        right: 20px;
+    }
+
+
+    .banner_txt h1 {
+        color: #fff;
+        font-size: 40px;
+    }
+
+    .banner_txt p {
+        line-height: 0px;
+        font-size: 10px;
+    }
+
+    .services {
+        border: 1px solid #7e8287;
+        margin: 10px 0;
+    }
+
+    .services_txt h2 {
+        margin-left: 20px;
+    }
+
+
+    .services_txt p {
+        margin-left: 20px;
+    }
+
+    .pricing_title p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .pricing_items span {
+        color: #000;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .pricing_btn a {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+    .pricing_btn2 a {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+    .data {
+        bottom: 7px;
+        width: 43px;
+        height: 49px;
+    }
+
+    .data h5 {
+        margin-bottom: 0px;
+        font-size: 12px;
+    }
+
+    .blog_content h6 {
+        font-size: 18px;
+        margin-left: 0px;
+    }
+
+    .blg_title a {
+        font-size: 15px;
+        margin-left: 26px;
+    }
+
+    .team_img {
+        margin: 30px;
+    }
+
+    .team_title p {
+        font-size: 16px;
+    }
+
+    .skill-tl h3 {
+        text-align: center;
+    }
+
+
+    .contract-frm {
+        margin-bottom: 20px;
+    }
+
+    .footer_title {
+        margin-top: 20px;
+    }
+
+    .footer_title h2 {
+        margin-bottom: 15px;
+    }
+
+
+
+    .footer_msg {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .footer_msg {
+        height: 260px;
+        width: 296px;
+    }
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 375.98px) {
+
+    .nav_menu.sticky {
+        display: none !important
+    }
+
+    .navbar-nav {
+        margin-top: 0px;
+        text-align: left;
+    }
+
+    .navbar-nav .nav-item {
+        padding: 3px 0;
+        margin-left: 86px;
+    }
+
+
+    .navbar-brand {
+        width: 20px;
+    }
+
+    .left_arrow,
+    .right_arrow {
+        font-size: 25px;
+    }
+
+    .left_arrow {
+        left: 10px;
+    }
+
+    .right_arrow {
+        right: 10px;
+    }
+
+
+    .banner_txt h1 {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .banner_txt p {
+        color: #ffff;
+        padding-top: 10px;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0px;
+    }
+
+    .services {
+        border: 1px solid #7e8287;
+        margin: 10px 0;
+    }
+
+    .services_txt h2 {
+        margin-left: 20px;
+    }
+
+
+    .services_txt p {
+        margin-left: 20px;
+    }
+
+    .about_text h2 {
+        font-size: 20px;
+    }
+
+    .abt_icn span {
+        font-size: 8px;
+    }
+
+    .pricing_title p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .pricing_items span {
+        color: #000;
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    .pricing_btn a {
+        padding: 8px 13px;
+        font-size: 13px;
+    }
+
+    .pricing_btn2 a {
+        font-size: 13px;
+        padding: 8px 13px;
+    }
+
+    .heading {
+        padding: 4px 0;
+    }
+
+    .heading h2 {
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    .data {
+        bottom: 7px;
+        width: 43px;
+        height: 49px;
+    }
+
+    .data h5 {
+        margin-bottom: 0px;
+        font-size: 12px;
+    }
+
+    .gal_btn {
+        margin-top: 9px;
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .blog_content h6 {
+        font-size: 18px;
+        margin-left: 0px;
+    }
+
+    .blg_title a {
+        font-size: 15px;
+        margin-left: 26px;
+    }
+
+    .team_img {
+        margin: 30px;
+    }
+
+    .team_title p {
+        font-size: 16px;
+    }
+
+    .skill-tl h3 {
+        text-align: center;
+    }
+
+
+    .contract-frm {
+        margin-bottom: 20px;
+    }
+
+    .footer_title {
+        margin-top: 20px;
+    }
+
+    .footer_title h2 {
+        margin-bottom: 15px;
+    }
+
+    .box_title {
+        padding: 6px 10px;
+    }
+
+    .box_title h2 {
+        font-size: 14px;
+    }
+
+    .footer_msg {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .footer_msg {
+        height: 180px;
+        width: 213px;
+    }
+
+    .box {
+        width: 155px;
+        height: 32px;
+    }
+
+    .frm_btn a {
+        margin-top: 15px;
+        width: 155px;
+        height: 30px;
+        font-size: 16px;
+        padding: 0px 0px;
+    }
+}
